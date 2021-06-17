@@ -16,8 +16,8 @@ function showMenu(){
     else 
     {
         webMenu.style.display="none";
-        mobileNav.style.color="#ddd";
-        mobileMenu.style.backgroundColor="transparent";
+        mobileNav.style.color="#fff";
+        mobileMenu.style.backgroundColor="rgba(0, 0, 0, 0.25)";
         open=false;
     }
     

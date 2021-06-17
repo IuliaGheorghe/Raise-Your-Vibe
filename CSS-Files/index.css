@@ -42,3 +42,14 @@ button:hover{
       color: #000;
       border-color: greenyellow;
   }
+
+  @media only screen and (max-width: 600px){
+    h1{
+        font-size: 58px;
+    }
+
+    button{
+        width: 310px;
+        font-size: 16px;
+    }
+}

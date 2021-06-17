@@ -1,5 +1,11 @@
+#speeches-cpntainer{
+    height: 100vh;
+}
+
 section{
     height: 100vh;
+    display: block;
+    overflow-y: scroll;
     position: relative;
 
 }
@@ -57,4 +63,19 @@ footer a{
 
 footer a:hover{
     color: greenyellow;
+}
+
+@media only screen and (max-width: 600px) {
+    .speech{
+        display: block;
+        padding: 20px;
+    }
+
+    footer{
+        padding: 20px;
+    }
+
+    footer a{
+        text-align: center;
+    }
 }
