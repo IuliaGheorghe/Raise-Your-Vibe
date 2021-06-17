@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./CSS-Files/style.css">
     <link rel="stylesheet" href="./CSS-Files/speeches.css">
     <title>Raise Your Vibe | Motivational Speeches for You</title>
 </head>
 <body>
+    
+    <nav id="mobile-menu">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </nav>
 
-    <nav>
+    <nav id="web-menu">
         <a href="index.html">Home</a>
         <a href="quotes.html">Your Motivational Quote</a>
         <a href="images.html">Your Inspirational Images</a>
@@ -142,6 +147,14 @@
             <a target="blank" href="https://www.oberlo.com/blog/best-motivational-speeches-entrepreneurs">https://www.oberlo.com/blog/best-motivational-speeches-entrepreneurs</a>
         </h5>
     </footer>
+
+    <script>
+        let currentPage = document.getElementById('web-menu').getElementsByTagName('a')[3];
+        currentPage.style.color="greenyellow";
+        currentPage.style.borderColor="greenyellow";
+    </script>
+    <script src="menu.js"></script>
+
     
 </body>
 </html>
